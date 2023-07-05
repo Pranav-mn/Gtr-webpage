@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    width: 100%;
+    height: 200vh;
+    background-image: url(photos/gtr.webp);
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width: 50px;
+    height: 40px;
+    padding-left:20px ;
+    padding-top: 10px;
+}
+li{
+    display:inline-block;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.navlink{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar{
+    height: 40px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    border-radius: 10px 40px;
+}
+ul{
+    padding-top: 10px;
+    font-family: 'Sigmar';   
+    padding-right: 10px;}
+.navlink:hover{
+    color:black;
+    font-weight: bold;
+    font-family: 'Indie Flower';
+}
+#login{
+    color: black;
+    border: solid white 2px;
+    border-width: 5px 10px;
+    background: transparent;
+}
+
+.logbtn{
+    width: 80px;
+    height:35px;
+    border-radius: 10px;
+    font-family: 'Sigmar';
+    background: transparent;
+}
+.logbtn:hover{
+    background-color: white;
+    font-family: 'Indie Flower';
+    font-weight: bold;
+}
+
+.loginbox{
+    position: relative;
+    top: 100px;
+    left: 500px;
+    width: 300px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid grey;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.inputbox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 2px;
+    margin: 30px 0px;
+}
+.inputbox label{
+    position:absolute;
+    top:10px;
+    left: 5px;
+}
+.inputbox input{
+    width: 85%;
+    height: 20px;
+    position: relative;
+    top:20px;
+    background: transparent; 
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.inputbox .icon{
+    position: absolute;
+    right: 5px;
+    top: 22px;
+}
+
+.inputbox input:focus~label,
+.inputbox input:valid~label{
+     top: -5px;
+}
+
+.rememb-check{
+    font-size: .9em;
+    padding-right: 10px;
+    /* display: flex;
+    justify-content:space-between; */
+    position:absolute;
+    top: 260px;
+}
+
+.btn{
+    padding-top:30px;
+
+}
+.btn button{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    font-size: bold;
+    font-weight: 1000;
+    color: white;
+    border-radius: 10px;
+}
+.reg{
+    padding: 30px;
+}
+
